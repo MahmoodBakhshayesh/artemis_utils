@@ -10,6 +10,7 @@ extension Format on DateTime?
     return this == null ? "" : DateFormat("dd MMM").format(this!);
   }
 
+  
   String get format_HHmm {
     return this == null ? "" : DateFormat("HH:mm").format(this!);
   }
